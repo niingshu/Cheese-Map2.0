@@ -6,10 +6,10 @@
         "country": "Greece",
         "lat": 37.08,
         "lng": 25.37,
-        "rating":"4.6",
+        "rating": 4.6,
         "fun": "Graviera Naxou was inspired by the Swiss Gruyère",
         "content": "Cow's milk (at least 80%) with addition of sheep and goat's milk (up to 20%)",
-        "Url": "https://www.tasteatlas.com/graviera-naxou",
+        "url": "https://www.tasteatlas.com/graviera-naxou",
         "img": "./images/cheeses/gravNaxou.png"
     },
     {
@@ -17,12 +17,14 @@
         "name":"Parmigiano Reggiano",
         "region": "Province of Parma",
         "country": "Italy",
-        "lat": 44.81,
-        "lng": 10.33,
-        "rating":"4.6",
+        "location": {
+            "type": "Point",
+            "coordinates": [10.33, 44.81]
+        },
+        "rating": 4.6,
         "fun": "Parmigiano Reggiano is officially considered a 'space food', chosen by both NASA and Russian space programs for astronaut diets",
         "content": "100% natural, raw, cow's milk cheese",
-        "Url": "https://www.tasteatlas.com/parmigiano-reggiano" ,
+        "url": "https://www.tasteatlas.com/parmigiano-reggiano" ,
         "img": "./images/cheeses/parmigianoReg.jpg"
     },
     {
@@ -30,12 +32,14 @@
         "name":"Queijo de Azeitão",
         "region": "Palmela",
         "country": "Portugal",
-        "lat": 38.58,
-        "lng": -8.90,
-        "rating":"4.6",
+        "location": {
+            "type": "Point",
+            "coordinates": [-8.90, 38.58]
+        },
+        "rating":4.6,
         "fun": "Queijo de Azeitão is a rare, 100% vegetarian, creamy sheep's milk cheese",
         "content": "Unpasteurized sheep's milk",
-        "Url": "https://www.tasteatlas.com/queijo-de-azeitao",
+        "url": "https://www.tasteatlas.com/queijo-de-azeitao",
         "img": "./images/cheeses/azeitao.jpg"
     },
     {
@@ -43,12 +47,14 @@
         "name":"Mozzarella di Bufala Campana",
         "region": "Campania",
         "country": "Italy",
-        "lat": 40.93,
-        "lng": 14.20,
-        "rating":"4.5",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.20, 40.93]
+        },
+        "rating":4.5,
         "fun": "Mozzarella di Bufala Campana DOP is protected by European law, meaning it can only be made in specific areas of southern Italy",
         "content": "made from the milk of the Italian Mediterranean buffalo",
-        "Url": "https://www.tasteatlas.com/mozzarella-di-bufala-campana",
+        "url": "https://www.tasteatlas.com/mozzarella-di-bufala-campana",
         "img":  "./images/cheeses/mozzarella-di-bufala-campana.jpg"
     },
     {
@@ -56,12 +62,14 @@
         "name":"Graviera Kritis",
         "region": "Crete",
         "country": "Greece",
-        "lat": 35.24,
-        "lng": 24.91,
-        "rating":"4.5",
+        "location": {
+            "type": "Point",
+            "coordinates": [24.91, 35.24]
+        },
+        "rating":4.5,
         "fun": "The cheese matures for 3 to 5 months before going to market",
         "content": "Up to 20 percent goat's milk mixed with sheep's milk, and it must all come from free-range animals",
-        "Url": "https://www.tasteatlas.com/graviera-kritis",
+        "url": "https://www.tasteatlas.com/graviera-kritis",
         "img": "./images/cheeses/gravieraKritis.jpg"
     },
     {
@@ -69,12 +77,14 @@
         "name":"Queijo Serra da Estrela",
         "region": "Serra da Estrela",
         "country": "Portugal",
-        "lat": 40.51,
-        "lng": -7.85,
-        "rating":"4.5",
+        "location": {
+            "type": "Point",
+            "coordinates": [-7.85, 40.51]
+        },
+        "rating":4.5,
         "fun": "The Serra da Estrela cheese is a recipe handed down through generations",
         "content": "Milk of Bordaleira Serra da Estrela and Churra Mondegueira breeds of sheep",
-        "Url": "https://www.tasteatlas.com/queijo-serra-da-estrela" ,
+        "url": "https://www.tasteatlas.com/queijo-serra-da-estrela" ,
         "img": "./images/cheeses/queijoSerraDaEstrela.jpg"
     },
     {
@@ -82,12 +92,14 @@
         "name":"Pecorino Sardo",
         "region": "Sardinia",
         "country": "Italy",
-        "lat": 40.08,
-        "lng": 8.98,
-        "rating":"4.5",
+        "location": {
+            "type": "Point",
+            "coordinates": [8.98, 40.08]
+        }, 
+        "rating":4.5,
         "fun": "The name does not derive from the capital but from history: it was the ideal food for the sustenance of the Roman army",
         "content": "100% whole sheep's milk",
-        "Url": "https://www.tasteatlas.com/pecorino-sardo" ,
+        "url": "https://www.tasteatlas.com/pecorino-sardo" ,
         "img": "./images/cheeses/pecorinoSardo.jpg"
     },
     {
@@ -95,12 +107,14 @@
         "name":"Kefalograviera",
         "region": "Epirus",
         "country": "Greece",
-        "lat": 39.60,
-        "lng": 20.78,
-        "rating":"4.5",
+        "location": {
+            "type": "Point",
+            "coordinates": [20.78, 39.60]
+        },
+        "rating":4.5,
         "fun": "It seems to be a relatively recent innovation, the submission document from 1996 said it had only come into production “over recent decades”",
         "content": "Made with cow, goat, and sheep milk that is typically pasteurized",
-        "Url": "https://www.tasteatlas.com/kefalograviera" ,
+        "url": "https://www.tasteatlas.com/kefalograviera" ,
         "img": "./images/cheeses/kefalograviera.jpg"
     },
     {
@@ -108,12 +122,14 @@
         "name":"Burrata",
         "region": "Apulia",
         "country": "Italy",
-        "lat": 41.01,
-        "lng": 16.73,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [16.73, 41.01]
+        },
+        "rating":4.4,
         "fun": "Burrata is as white as mozzarella but comes with a strange narrowing at the top, like a giant dumpling",
         "content": "Italian cow's milk (occasionally buffalo milk) that is typically pasteurized or unpasteurized",
-        "Url": "https://www.tasteatlas.com/burrata" ,
+        "url": "https://www.tasteatlas.com/burrata" ,
         "img": "./images/cheeses/burrata.jpg"
     },
     {
@@ -121,12 +137,14 @@
         "name":"Saint-Félicien",
         "region": "Rhône-Alpes",
         "country": "France" ,
-        "lat": 45.46,
-        "lng": 4.62,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [4.62, 45.46]
+        }, 
+        "rating":4.4,
         "fun": "It is the invention of an 80-year-old creamery just south of Lyon",
         "content": "Raw or pasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/saint-felicien" ,
+        "url": "https://www.tasteatlas.com/saint-felicien" ,
         "img": "./images/cheeses/stFelicien.jpg"
     },
     {
@@ -134,12 +152,14 @@
         "name":"Metsovone",
         "region": "Metsovo",
         "country": "Greece",
-        "lat": 39.77,
-        "lng": 21.18,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [21.18, 39.77]
+        },
+        "rating":4.4,
         "fun": "Metsovone may be made in a similar way to a smoked provolone, but the two cheeses have different tastes due to distinct cheesemaking processes",
         "content": "Made with cow, goat, or sheep milk that is typically unpasteurized",
-        "Url": "https://www.tasteatlas.com/metsovone"  ,
+        "url": "https://www.tasteatlas.com/metsovone"  ,
         "img": "./images/cheeses/metsovone.jpg"
     },
     {
@@ -147,12 +167,14 @@
         "name":"Pecorino Toscano",
         "region": "Tuscany",
         "country": "Italy",
-        "lat": 43.77,
-        "lng": 11.25,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [11.25, 43.77]
+        },
+        "rating":4.4,
         "fun": "Pecorino Romano is one of the few cheeses in the world that boasts a thousand-year history",
         "content": "100% whole sheep’s milk",
-        "Url": "https://www.tasteatlas.com/pecorino-toscano" ,
+        "url": "https://www.tasteatlas.com/pecorino-toscano" ,
         "img": "./images/cheeses/pecorinoToscano.jpg"
     },
     {
@@ -160,12 +182,14 @@
         "name":"Saint-André",
         "region": "Coutances",
         "country": "France",
-        "lat": 49.05,
-        "lng": -1.44,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [-1.44, 49.05]
+        },
+        "rating":4.4,
         "fun": "Saint-André is a notoriously rich French 'triple cream' cheese with a 75% butterfat content, making it closer to butter than typical Brie",
         "content": "Made with cow milk that is typically raw",
-        "Url": "https://www.tasteatlas.com/saint-andre" ,
+        "url": "https://www.tasteatlas.com/saint-andre" ,
         "img": "./images/cheeses/saintAndré.jpg"
     },
     {
@@ -173,12 +197,14 @@
         "name":"Pecorino Siciliano",
         "region": "Sicily",
         "country": "Italy",
-        "lat": 37.15,
-        "lng": 13.79,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [13.79, 37.15]
+        },
+        "rating":4.4,
         "fun": "Pecorino Siciliano, one of Europe's oldest cheeses with roots in ancient Greece, is famously mentioned in Homer's Odyssey (written around the 8th Century BC)",
         "content": "raw, whole sheep's milk (ewe's milk) sourced from animals raised in Sicily",
-        "Url": "https://www.tasteatlas.com/pecorino-siciliano"  ,
+        "url": "https://www.tasteatlas.com/pecorino-siciliano"  ,
         "img": "./images/cheeses/pecorinoSiciliano.jpg"
     },
     {
@@ -186,12 +212,14 @@
         "name":"Redykołka",
         "region": "Podhale",
         "country": "Poland",
-        "lat": 50.35,
-        "lng": 21.00,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [21.00, 50.35]
+        },
+        "rating":4.4,
         "fun": "It is made from the leftover curds of the larger oscypek, and it is traditionally molded into intricate, decorative shapes like animals, birds, or hearts",
         "content": "Primarily made from unpasteurized sheep's milk in the Podhale region, may include up to 40% cow's milk from the Polish Red Cow breed. ",
-        "Url": "https://www.tasteatlas.com/redykoka" ,
+        "url": "https://www.tasteatlas.com/redykoka" ,
         "img": "./images/cheeses/redykołka.jpg"
     },
     {
@@ -199,12 +227,14 @@
         "name":"Livanjski sir",
         "region": "Livno",
         "country": "Bosnia and Herzegovina",
-        "lat": 43.85,
-        "lng": 17.00,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [17.00, 43.85]
+        },
+        "rating":4.4,
         "fun": "Livanjski sir was first produced in 1886",
         "content": "Sheep's milk, or mixture of sheep's and cow's milk",
-        "Url": "https://www.tasteatlas.com/livanjski-sir"  ,
+        "url": "https://www.tasteatlas.com/livanjski-sir"  ,
         "img": "./images/cheeses/livanjskiSir.jpg"
     },
     {
@@ -212,12 +242,14 @@
         "name":"Brillat-Savarin",
         "region": "Forges-les-Eaux",
         "country": "France",
-        "lat": 49.61,
-        "lng": 1.55,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [1.55, 49.61]
+        }, 
+        "rating":4.4,
         "fun": "Brillat-Savarin is a decadent 'triple cream' French cheese with over 75% fat content, often called the 'foie gras' of cheeses",
         "content": "Made with good cow's milk",
-        "Url": "https://www.tasteatlas.com/brillat-savarin"  ,
+        "url": "https://www.tasteatlas.com/brillat-savarin"  ,
         "img": "./images/cheeses/brillatSavarin.jpg"
     },
     {
@@ -225,12 +257,14 @@
         "name":"Canastra",
         "region": "Minas Gerais",
         "country": "Brazil",
-        "lat": -18.51,
-        "lng": -44.56,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [-44.56, -18.51]
+        },
+        "rating":4.4,
         "fun": "It was the first Brazilian cheese to win an international award in France (2015)",
         "content": "cow's milk (unpasteurized)",
-        "Url": "https://www.tasteatlas.com/canastra"  ,
+        "url": "https://www.tasteatlas.com/canastra"  ,
         "img": "./images/cheeses/canastra.jpg"
     },
     {
@@ -238,12 +272,14 @@
         "name":"Gołka",
         "region": "Silesian Voivodeship",
         "country": "Poland",
-        "lat": 50.25,
-        "lng": 19.00,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [19.00, 50.25]
+        },
+        "rating":4.4,
         "fun": "It is often produced in cylindrical, 'log' shapes rather than the classic spindle-shaped mold used for traditional highland cheese",
         "content": "100% goat's milk",
-        "Url": "https://www.tasteatlas.com/goka"  ,
+        "url": "https://www.tasteatlas.com/goka"  ,
         "img": "./images/cheeses/gołka.jpg"
     },
     {
@@ -251,12 +287,14 @@
         "name":"Mont d'Or",
         "region": "Doubs",
         "country": "France",
-        "lat": 46.93,
-        "lng": 6.35,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [6.35, 46.93]
+        }, 
+        "rating":4.4,
         "fun": "It's one of only a few French cheeses you have to eat with a spoon!",
         "content": "Unpasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/mont-dor" ,
+        "url": "https://www.tasteatlas.com/mont-dor" ,
         "img": "./images/cheeses/montdOr.jpg"
     },
     {
@@ -264,12 +302,14 @@
         "name":"Kalathaki Limnou",
         "region": "Lemnos",
         "country": "Greece",
-        "lat": 39.87,
-        "lng": 25.06,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [25.06, 39.87]
+        },
+        "rating":4.4,
         "fun": "It is actually drained and aged inside tiny, traditional wicker baskets (giving it a basket-weave, ridged pattern) before being submerged in brine, with the name literally translating to 'little basket'",
         "content": "Pasteurized sheep's milk or a mix of sheep's and up to 30% goat's milk",
-        "Url": "https://www.tasteatlas.com/kalathaki-limnou" ,
+        "url": "https://www.tasteatlas.com/kalathaki-limnou" ,
         "img": "./images/cheeses/kalathakiLimnou.jpg"
     },
     {
@@ -277,12 +317,14 @@
         "name":"Grana Padano",
         "region": "Lombardy",
         "country": "Italy",
-        "lat": 45.48,
-        "lng": 9.85,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [9.85, 45.48]
+        }, 
+        "rating":4.4,
         "fun": "It is naturally lactose-free",
         "content": "Raw milk, which makes up 98%",
-        "Url": "https://www.tasteatlas.com/grana-padano" ,
+        "url": "https://www.tasteatlas.com/grana-padano" ,
         "img": "./images/cheeses/granaPadano.jpg"
     },
     {
@@ -290,12 +332,14 @@
         "name":"Pecorino Romano",
         "region": "Sardinia",
         "country": "Italy",
-        "lat": 40.09,
-        "lng": 8.98,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [8.98, 40.09]
+        }, 
+        "rating":4.4,
         "fun": "A cheese made from sheep's milk that was a staple food for the Roman army",
         "content": "100% pasteurized or raw Italian sheep's milk",
-        "Url": "https://www.tasteatlas.com/pecorino-romano" ,
+        "url": "https://www.tasteatlas.com/pecorino-romano" ,
         "img": "./images/cheeses/pecorinoRomano.jpg"
     },
     {
@@ -303,12 +347,14 @@
         "name":"Anthotyro",
         "region": "", 
         "country": "Greece",
-        "lat": 39.10,
-        "lng": 21.85,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [21.85, 39.10]
+        },
+        "rating":4.4,
         "fun": "The name anthotyro means flowery cheese, referring to the strong aromas of wild herbs",
         "content": "From goat's or sheep's milk",
-        "Url": "https://www.tasteatlas.com/anthotyro" ,
+        "url": "https://www.tasteatlas.com/anthotyro" ,
         "img": "./images/cheeses/anthotyro.jpg"
     },
     {
@@ -316,12 +362,14 @@
         "name":"Burrata di Andria",
         "region": "Apulia",
         "country": "Italy",
-        "lat": 41.01,
-        "lng": 16.73,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [16.73, 41.01]
+        },
+        "rating":4.4,
         "fun": "It was created as a way to avoid waste by stuffing leftover mozzarella scraps and cream inside a fresh mozzarella shell",
         "content": "Italian cow's milk",
-        "Url": "https://www.tasteatlas.com/burrata-di-andria" ,
+        "url": "https://www.tasteatlas.com/burrata-di-andria" ,
         "img": "./images/cheeses/burrataDiAndria.jpg"
     },
     {
@@ -329,12 +377,14 @@
         "name":"Queijo Serpa",
         "region": "Serpa",
         "country": "Portugal",
-        "lat": 37.94,
-        "lng": -7.60,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [-7.60, 37.94]
+        },
+        "rating":4.4,
         "fun": "Serpa is the most famous traditional Alentejano, region of Portugal, cheese",
         "content": "Raw sheep milk",
-        "Url": "https://www.tasteatlas.com/queijo-serpa" ,
+        "url": "https://www.tasteatlas.com/queijo-serpa" ,
         "img": "./images/cheeses/queijoSerpa.jpg"
     },
     {
@@ -342,12 +392,14 @@
         "name":"San Michali",
         "region": "Syros",
         "country": "Greece",
-        "lat": 37.44,
-        "lng": 24.94,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [24.94, 37.44]
+        },
+        "rating":4.4,
         "fun": "This hard cheese has a cylindrical shape, a compact texture, and a distinct salty and peppery flavor",
         "content": "pasteurized or sometimes partly skimmed cow's milk",
-        "Url": "https://www.tasteatlas.com/san-michali" ,
+        "url": "https://www.tasteatlas.com/san-michali" ,
         "img": "./images/cheeses/sanMichali.jpg"
     },
     {
@@ -355,12 +407,14 @@
         "name":"Beaufort",
         "region": "Beaufort",
         "country": "France",
-        "lat": 45.72,
-        "lng": 6.58,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [6.58, 45.72]
+        }, 
+        "rating":4.4,
         "fun": "It has a unique concave (inward-curving) rind specifically designed to act as a 'dairy pulley' for transporting heavy, 70kg wheels on donkey backs down steep Alps",
         "content": "Raw cow's milk",
-        "Url": "https://www.tasteatlas.com/beaufort" ,
+        "url": "https://www.tasteatlas.com/beaufort" ,
         "img": "./images/cheeses/beaufort.jpg"
     },
     {
@@ -368,12 +422,14 @@
         "name":"West Country Farmhouse Cheddar",
         "region": "South West England",
         "country": "England",
-        "lat": 51.54,
-        "lng": -0.19,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [-0.19, 51.54]
+        },
+        "rating":4.4,
         "fun": "This cheddar was historically matured in the caves of Cheddar Gorge, which provided the perfect, cool, and humid environment for aging",
         "content": "Pasteurised cow's milk",
-        "Url": "https://www.tasteatlas.com/west-country-farmhouse-cheddar" ,
+        "url": "https://www.tasteatlas.com/west-country-farmhouse-cheddar" ,
         "img": "./images/cheeses/westCountryFarmhouseCheddar.jpg"
     },
     {
@@ -381,12 +437,14 @@
         "name":"Queijo de Cabra Transmontano",
         "region": "Bragança District",
         "country": "Portugal",
-        "lat": 41.81,
-        "lng": -6.76,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [-6.76, 41.81]
+        },
+        "rating":4.4,
         "fun": "It is often aged for up to two years to become a 'Velho' (old) cheese, turning it from a semi-hard, mild cheese into a firm, intense, and spicy delicacy",
         "content": "Raw milk from the Cabra Serrana goat breed",
-        "Url": "https://www.tasteatlas.com/queijo-de-cabra-transmontano" ,
+        "url": "https://www.tasteatlas.com/queijo-de-cabra-transmontano" ,
         "img": "./images/cheeses/transmontano.jpg"
     },
     {
@@ -394,12 +452,14 @@
         "name":"Ladotyri Mytilinis",
         "region": "Lesbos",
         "country": "Greece",
-        "lat": 39.18,
-        "lng": 26.22,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [26.22, 39.18]
+        },
+        "rating":4.4,
         "fun": "It was historically matured and stored in olive oil to preserve it before modern refrigeration",
         "content": "100% sheep's milk or a mixture containing at least 70% sheep's milk and a maximum of 30% goat’s milk",
-        "Url": "https://www.tasteatlas.com/ladotyri-mytilinis" ,
+        "url": "https://www.tasteatlas.com/ladotyri-mytilinis" ,
         "img": ".images/cheeses/ladotyriMytilinis.jpg"
     },
     {
@@ -407,12 +467,14 @@
         "name":"Comté",
         "region": "Franche-Comté",
         "country": "France",
-        "lat": 47.28,
-        "lng": 4.99,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [4.99, 47.28]
+        }, 
+        "rating":4.4,
         "fun": "It boasts up to 83 distinct flavors, changing from summer (yellow) to winter (ivory)",
         "content": "Only milk from Montbéliarde or French Simmental cows (or cross breeds of the two)",
-        "Url": "https://www.tasteatlas.com/comte" ,
+        "url": "https://www.tasteatlas.com/comte" ,
         "img": "./images/cheeses/comte.jpg"
     },
     {
@@ -420,12 +482,14 @@
         "name":"Tenili",
         "region": "Samtskhe-Javakheti",
         "country": "Georgia",
-        "lat": 41.69,
-        "lng": 44.87,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [44.87, 41.69]
+        },
+        "rating":4.4,
         "fun": "Made from sheep or cow milk",
         "content": "It is incredibly labor-intensive to produce, serving Tenili is considered a sign of high honor and respect for a guest",
-        "Url": "https://www.tasteatlas.com/tenili" ,
+        "url": "https://www.tasteatlas.com/tenili" ,
         "img": "./images/cheeses/tenili.jpg"
     },
     {
@@ -433,12 +497,14 @@
         "name":"Sfela",
         "region": "Messinia",
         "country": "Greece",
-        "lat": 37.08,
-        "lng": 21.97,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [21.97, 37.08]
+        },
+        "rating":4.4,
         "fun": "Sfela is called 'fire cheese' because the curd is reheated during production",
         "content": "Made from sheep's milk or a mix of sheep and goat milk",
-        "Url": "https://www.tasteatlas.com/sfela" ,
+        "url": "https://www.tasteatlas.com/sfela" ,
         "img": "./images/cheeses/sfela.jpg"
     },
     {
@@ -446,12 +512,14 @@
         "name":"Arseniko Naxou",
         "region": "Naxos Island",
         "country": "Greece",
-        "lat": 38.56,
-        "lng": 26.08,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [26.08, 38.56]
+        },
+        "rating":4.4,
         "fun": "'Arseniko' means male in Greek, referring to its sharp, aggressive, and strong character, as it is made using the most robust part of the morning milk. It is often paired with Thylikatori (female), a soft cheese made from the leftover whey of the Arseniko",
         "content": "Unpasteurized local sheep and goats' milk",
-        "Url": "https://www.tasteatlas.com/arseniko-naxou" ,
+        "url": "https://www.tasteatlas.com/arseniko-naxou" ,
         "img": "./images/cheeses/arsenikoNaxou.jpg"
     },
     {
@@ -459,12 +527,14 @@
         "name":"Ovčí Salašnícky Údený Syr",
         "region": "",
         "country": "Slovakia",
-        "lat": 48.69,
-        "lng": 19.75,
-        "rating":"4.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [19.75, 48.69]
+        },
+        "rating":4.4,
         "fun": "It is still often produced by hand using traditional methods and sometimes shaped with wooden molds, giving it a unique rustic, smoky profile",
         "content": "Unpasteurized sheep's milk",
-        "Url": "https://www.tasteatlas.com/ovci-salasnicky-udeny-syr" ,
+        "url": "https://www.tasteatlas.com/ovci-salasnicky-udeny-syr" ,
         "img": "./images/cheeses/ovci.jpg"
     },
     {
@@ -472,12 +542,14 @@
         "name":"Stracciata",
         "region": "Molise",
         "country": "Italy",
-        "lat": 41.73,
-        "lng": 14.56,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.56, 41.73]
+        },
+        "rating":4.3,
         "fun": "Originally created to prevent waste by mixing leftover, hand-torn mozzarella shreds with heavy cream",
         "content": "Produced from Italian buffalo milk",
-        "Url": "https://www.tasteatlas.com/stracciata" ,
+        "url": "https://www.tasteatlas.com/stracciata" ,
         "img": "./images/cheeses/stracciatella.jpg"
     },
     {
@@ -485,12 +557,14 @@
         "name":"Graviera Agrafon",
         "region": "Thessaly",
         "country": "Greece",
-        "lat": 39.58,
-        "lng": 22.24,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [22.24, 39.58]
+        },
+        "rating":4.3,
         "fun": "It is actually more popular outside of Greece—specifically in France, Switzerland, and Germany—than within its home country",
         "content": "Raw sheep's milk with up to 30 percent goat's milk",
-        "Url": "https://www.tasteatlas.com/graviera-agrafon" ,
+        "url": "https://www.tasteatlas.com/graviera-agrafon" ,
         "img": "./images/cheeses/gravieraAgrafon.jpg"
     },
     {
@@ -498,12 +572,14 @@
         "name":"Mastelo",
         "region": "Chios",
         "country": "Greece",
-        "lat": 38.36,
-        "lng": 26.14,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [26.14, 38.36]
+        },
+        "rating":4.3,
         "fun": "It has an incredible, high melting point, allowing it to be grilled or pan-fried without losing its shape or melting away",
         "content": "From rich Chian cow's milk",
-        "Url": "https://www.tasteatlas.com/mastelo" ,
+        "url": "https://www.tasteatlas.com/mastelo" ,
         "img": "./images/cheeses/mastelo.jpg"
     },
     {
@@ -511,12 +587,14 @@
         "name":"Manchego viejo",
         "region": "Castilla-La Mancha",
         "country": "Spain",
-        "lat": 39.27,
-        "lng": -1.91,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [-1.91, 39.27]
+        },
+        "rating":4.3,
         "fun": "The wheel shape of cheese is due to the fact that it was originally produced in a round form to make transportation easier",
         "content": "100% whole milk of the Manchega sheep",
-        "Url": "https://www.tasteatlas.com/manchego-viejo" ,
+        "url": "https://www.tasteatlas.com/manchego-viejo" ,
         "img": "./images/cheeses/manchegoViejo.jpg"
     },
     {
@@ -524,12 +602,14 @@
         "name":"Manchego curado",
         "region": "Castilla-La Mancha",
         "country": "Spain",
-        "lat": 39.27,
-        "lng": -1.91,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [-1.91, 39.27]
+        },
+        "rating":4.3,
         "fun": "The zigzag, herringbone pattern on the rind is not just decorative; it historically mimics the woven grass molds (esparto) used to drain the cheese",
         "content": "100% whole milk of the Manchega sheep",
-        "Url": "https://www.tasteatlas.com/manchego-curado" ,
+        "url": "https://www.tasteatlas.com/manchego-curado" ,
         "img": "./images/cheeses/manchegoCurado.jpg"
     },
     {
@@ -537,12 +617,14 @@
         "name":"Crottin de Chavignol",
         "region": "Chavignol",
         "country": "France",
-        "lat": 47.34,
-        "lng": 2.80,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [2.80, 47.34]
+        }, 
+        "rating":4.3,
         "fun": "It was originally named after the clay oil lamps (crot) used in local wine cellars, not animal waste",
         "content": "Raw, whole goat's milk in the Loire Valley",
-        "Url": "https://www.tasteatlas.com/crottin-de-chavignol" ,
+        "url": "https://www.tasteatlas.com/crottin-de-chavignol" ,
         "img": "./images/cheeses/crottinDeChavignol.jpg"
     },
     {
@@ -550,12 +632,14 @@
         "name":"Noord-Hollandse Gouda",
         "region": "North Holland",
         "country": "Netherlands",
-        "lat": 52.69,
-        "lng": 4.93,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [4.93, 52.69]
+        }, 
+        "rating":4.3,
         "fun": "While it is world-famous, Gouda is named after the town where it was historically traded, not necessarily produced",
         "content": "Pasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/noord-hollandse-gouda" ,
+        "url": "https://www.tasteatlas.com/noord-hollandse-gouda" ,
         "img": "./images/cheeses/noord.jpg"
     },
     {
@@ -563,12 +647,14 @@
         "name":"Idiazabal",
         "region": "Basque Country",
         "country": "Spain",
-        "lat": 42.96,
-        "lng": -2.69,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [-2.69, 42.96]
+        },
+        "rating":4.3,
         "fun": "While it is a hard cheese, it has a surprisingly oily and elastic texture when eaten",
         "content": "100% raw, whole milk, exclusively from Latxa or Carranzana sheep",
-        "Url": "https://www.tasteatlas.com/idiazabal" ,
+        "url": "https://www.tasteatlas.com/idiazabal" ,
         "img": "./images/cheeses/idiazabal.jpg"
     },
     {
@@ -576,12 +662,14 @@
         "name":"Ricotta di Bufala Campana",
         "region": "Campania",
         "country": "Italy",
-        "lat": 40.93,
-        "lng": 14.20,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.20, 40.93]
+        },
+        "rating":4.3,
         "fun": "It is not technically a 'cheese but rather a dairy byproduct, or latticino, made by 're-cooking' the leftover whey from Mozzarella di Bufala",
         "content": "Whey of buffalo milk in the Campania region of Italy",
-        "Url": "https://www.tasteatlas.com/ricotta-di-bufala-campana" ,
+        "url": "https://www.tasteatlas.com/ricotta-di-bufala-campana" ,
         "img": "./images/cheeses/ricottaDiBufalaCampana.jpg"
     },
     {
@@ -589,12 +677,14 @@
         "name":"Xynomyzithra Kritis",
         "region": "Crete",
         "country": "Greece",
-        "lat": 35.25,
-        "lng": 24.91,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [24.91, 35.25]
+        },
+        "rating":4.3,
         "fun": "It is a Greek cheese that is actually a 'recycling' product, traditionally made from the leftover whey of harder cheeses like Graviera",
         "content": "Whey of sheep's or goat's milk, with added milk and cream",
-        "Url": "https://www.tasteatlas.com/xynomyzithra-kritis" ,
+        "url": "https://www.tasteatlas.com/xynomyzithra-kritis" ,
         "img": "./images/cheeses/xynomizithraKriti.jpg"
     },
     {
@@ -602,12 +692,14 @@
         "name":"Mozzarella",
         "region": "Campania",
         "country": "Italy",
-        "lat": 40.93,
-        "lng": 14.20,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.20, 40.93]
+        },
+        "rating":4.3,
         "fun": "Mozzarella's name comes from the Neapolitan dialect word mozzare ('to cut off'), describing how the curd is hand-stretched and cut into individual balls, a technique developed to create its signature texture",
         "content": "Water buffalo or cow's milk",
-        "Url": "https://www.tasteatlas.com/mozzarella" ,
+        "url": "https://www.tasteatlas.com/mozzarella" ,
         "img": "./images/cheeses/mozzarella.jpg"
     },
     {
@@ -615,12 +707,14 @@
         "name":"Gorgonzola dolce",
         "region": "Gorgonzola",
         "country": "Italy",
-        "lat": 45.53,
-        "lng": 9.41,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [9.41, 45.53]
+        }, 
+        "rating":4.3,
         "fun": "Legend says a distracted cheesemaker in a hurry to meet his lover forgot his curds, resulting in an accidental, delightful, and creamy mold-veined cheese",
         "content": "Cow milk that is typically pasteurized",
-        "Url": "https://www.tasteatlas.com/gorgonzola-dolce" ,
+        "url": "https://www.tasteatlas.com/gorgonzola-dolce" ,
         "img": "./images/cheeses/gorgonzolaDolc.jpg"
     },
     {
@@ -628,12 +722,14 @@
         "name":"Queijo de Coalho",
         "region": "Northeast Region",
         "country": "Brazil",
-        "lat": -8.08,
-        "lng": -34.99,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [-34.99, -8.08]
+        },
+        "rating":4.3,
         "fun": "Despite being heated directly over fire, Coalho does not turn into a puddle; it becomes golden and soft inside, making it an ideal, non-leaking, high-temperature grilling cheese",
         "content": "Cow's milk, it can be crafted using either pasteurized or unpasteurized milk",
-        "Url": "https://www.tasteatlas.com/queijo-de-coalho" ,
+        "url": "https://www.tasteatlas.com/queijo-de-coalho" ,
         "img": "./images/cheeses/queijoCoalho.jpg"
     },
     {
@@ -641,12 +737,14 @@
         "name":"Gorgonzola piccante",
         "region": "Gorgonzola",
         "country": "Italy",
-        "lat": 45.53,
-        "lng": 9.41,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [9.41, 45.53]
+        }, 
+        "rating":4.3,
         "fun": "A robust, aged Italian blue cheese, is deeply connected to a legend of a 'lovesick cheesemaker' who was so distracted by a romantic rendezvous that he left his curds in a cauldron overnight, accidentally inventing the crumbly, spicy, and mold-veined cheese (also known as erborinatura) through this mistake",
         "content": "Pasteurized or raw whole cow’s milk",
-        "Url": "https://www.tasteatlas.com/gorgonzola-piccante" ,
+        "url": "https://www.tasteatlas.com/gorgonzola-piccante" ,
         "img": "./images/cheeses/gorgonzolaPiccante.jpg"
     },
     {
@@ -654,12 +752,14 @@
         "name":"Ciliegine mozzarella",
         "region": "Campania",
         "country": "Italy",
-        "lat": 40.93,
-        "lng": 14.20,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.20, 40.93]
+        },
+        "rating":4.3,
         "fun": "Ciliegine meaning 'cherry' in Italian, refers to small, cherry-sized mozzarella balls",
         "content": "Pasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/ciliegine-mozzarella" ,
+        "url": "https://www.tasteatlas.com/ciliegine-mozzarella" ,
         "img": "./images/cheeses/ciliegineMozzarella.jpg"
     },
     {
@@ -667,12 +767,14 @@
         "name":"Katiki Domokou",
         "region": "Domokos",
         "country": "Greece",
-        "lat": 39.13,
-        "lng": 22.30,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [22.30, 39.13]
+        },
+        "rating":4.3,
         "fun": "Unlike most cheeses, Katiki Domokou curdles primarily through acidic fermentation (often using natural yogurt or sour milk), not rennet",
         "content": "Pasteurized goat and sheep milk (or a mix)",
-        "Url": "https://www.tasteatlas.com/katiki-domokou" ,
+        "url": "https://www.tasteatlas.com/katiki-domokou" ,
         "img": "./images/cheeses/katikiDomokou.jpg"
     },
     {
@@ -680,12 +782,14 @@
         "name":"Provolone del Monaco",
         "region": "Metropolitan City of Naples",
         "country": "Italy",
-        "lat": 40.86,
-        "lng": 14.27,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.27, 40.86]
+        },
+        "rating":4.3,
         "fun": " It is often shaped like a melon or pear, with distinct grooves from the cords used to hang it while it cures for 4 to 18 months",
         "content": "Raw whole cow's milk, at least 20 percent of which comes from the local Agerolese breed",
-        "Url": "https://www.tasteatlas.com/provolone-del-monaco" ,
+        "url": "https://www.tasteatlas.com/provolone-del-monaco" ,
         "img": "./images/cheeses/provoloneDelMonaco.jpg"
     },
     {
@@ -693,12 +797,14 @@
         "name":"Bryndza Podhalańska",
         "region": "Podhale",
         "country": "Poland",
-        "lat": 50.35,
-        "lng": 21.00,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [21.00, 50.35]
+        },
+        "rating":4.3,
         "fun": "Traditionally, in the region, this cheese has been considered so healthy due to its high protein, calcium, and vitamin (A, B, D) content that it is nicknamed 'white gold'",
         "content": "Unpasteurized sheep's milk",
-        "Url": "https://www.tasteatlas.com/bryndza-podhalanska" ,
+        "url": "https://www.tasteatlas.com/bryndza-podhalanska" ,
         "img": "./images/cheeses/bryndza.jpg"
     },
     {
@@ -706,12 +812,14 @@
         "name":"Oaxaca cheese",
         "region": "Oaxaca",
         "country": "Mexico",
-        "lat": 17.07,
-        "lng": -96.73,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [-96.73, 17.07]
+        },
+        "rating":4.3,
         "fun": "The legend states that a young girl accidentally let the milk for her cheese curds coagulate too much. To hide her mistake, she added hot water, which produced a delicious, stringy texture that became famous",
         "content": "Raw or pasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/oaxaca-cheese" ,
+        "url": "https://www.tasteatlas.com/oaxaca-cheese" ,
         "img": "./images/cheeses/oaxaca.jpg"
     },
     {
@@ -719,12 +827,14 @@
         "name":"Boerenkaas",
         "region": "",
         "country": "Netherlands",
-        "lat": 52.13,
-        "lng": 5.29,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [5.29, 52.13]
+        }, 
+        "rating":4.3,
         "fun": "The flavor changes depending on the season, with summer milk producing a more floral taste compared to winter milk",
         "content": "Raw cow's milk",
-        "Url": "https://www.tasteatlas.com/boerenkaas" ,
+        "url": "https://www.tasteatlas.com/boerenkaas" ,
         "img": "./images/cheeses/boerenkaas.jpg"
     },
     {
@@ -732,12 +842,14 @@
         "name":"Bundz",
         "region": "Podhale",
         "country": "Poland",
-        "lat": 50.35,
-        "lng": 21.00,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [21.00, 50.35]
+        },
+        "rating":4.3,
         "fun": "The leftover whey from making Bundz is used to create a popular, sour, and refreshing drink called żętyca (or tyca)",
         "content": "Sheep's milk in Podhale region",
-        "Url": "https://www.tasteatlas.com/bundz" ,
+        "url": "https://www.tasteatlas.com/bundz" ,
         "img": "./images/cheeses/bundz.jpg"
     },
     {
@@ -745,12 +857,14 @@
         "name":"Raclette de Savoie",
         "region": "Haute-Savoie",
         "country": "France",
-        "lat": 46.07,
-        "lng": 6.42,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [6.42, 46.07]
+        }, 
+        "rating":4.3,
         "fun": "The name comes from the French verb racler (to scrape), as shepherds scraped the melted cheese onto bread or potatoes",
         "content": "Raw or thermized cow's milk",
-        "Url": "https://www.tasteatlas.com/raclette-de-savoie" ,
+        "url": "https://www.tasteatlas.com/raclette-de-savoie" ,
         "img": "./images/cheeses/raclette.jpg"
     },
     {
@@ -758,12 +872,14 @@
         "name":"Bocconcini",
         "region": "Campania",
         "country": "Italy",
-        "lat": 40.92,
-        "lng": 14.20,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.20, 40.92]
+        },
+        "rating":4.3,
         "fun": "Some varieties, like Saputo Lite Cocktail Bocconcini, offer a version with 30% less fat while maintaining the same flavor",
         "content": "Traditionally made from water buffalo milk, though commonly produced today using pasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/bocconcini" ,
+        "url": "https://www.tasteatlas.com/bocconcini" ,
         "img": "./images/cheeses/bocconcini.jpg"
     },
     {
@@ -771,12 +887,14 @@
         "name":"Tête de Moine",
         "region": "Saicourt",
         "country": "Switzerland",
-        "lat": 47.24,
-        "lng": 7.21,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [7.21, 47.24]
+        }, 
+        "rating":4.3,
         "fun": "The name means 'monk's head' It is believed the cheese, when scraped, resembles the tonsure (bald spot) of the monks at the Abbey de Bellelay who first produced it in the 12th century",
         "content": "Unpasteurized, raw cow's milk",
-        "Url": "https://www.tasteatlas.com/tete-de-moine"  ,
+        "url": "https://www.tasteatlas.com/tete-de-moine"  ,
         "img": "./images/cheeses/tête.jpg"
     },
     {
@@ -784,12 +902,14 @@
         "name":"Slovenský Oštiepok",
         "region": "",
         "country": "Slovakia",
-        "lat": 48.69,
-        "lng": 19.70,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [19.7, 48.69]
+        },
+        "rating":4.3,
         "fun": "Shaped like a large egg or a pine cone, with a golden brown exterior",
         "content": "Raw sheep's milk, a mixture of sheep's and cow's milk, or cow's milk",
-        "Url": "https://www.tasteatlas.com/slovensky-ostiepok"  ,
+        "url": "https://www.tasteatlas.com/slovensky-ostiepok"  ,
         "img": "./images/cheeses/slovenskýOštiepok.jpg"
     },
     {
@@ -797,12 +917,14 @@
         "name":"Queso Manchego",
         "region": "Castilla-La Mancha",
         "country": "Spain",
-        "lat": 39.27,
-        "lng": -1.91,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [-1.91, 39.27]
+        },
+        "rating":4.3,
         "fun": "Its distinct, traditional rind pattern mimics the braided grass molds (esparto grass) once used to drain the cheese, a pattern still required by regulatory councils",
         "content": "Milk of sheep of the Manchega breed",
-        "Url": "https://www.tasteatlas.com/queso-manchego"  ,
+        "url": "https://www.tasteatlas.com/queso-manchego"  ,
         "img": "./images/cheeses/quesoManchego.jpg"
     },
     {
@@ -810,12 +932,14 @@
         "name":"Stracchino di Crescenza",
         "region": "Lombardy",
         "country": "Italy",
-        "lat": 45.48,
-        "lng": 9.85,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [9.85, 45.48]
+        }, 
+        "rating":4.3,
         "fun": "often called 'tired' cheese because its name derives from stracca (Italian for 'tired'), referring to the exhaustion of cows moving between Alpine pastures and the Lombardy valley, which results in milk richer in fat",
         "content": "Italian cow's milk cheese typical of the regions of Lombardy, Tuscany, Veneto, Friuli-Venezia Giulia, and Liguria",
-        "Url": "https://www.tasteatlas.com/stracchino-di-crescenza"  ,
+        "url": "https://www.tasteatlas.com/stracchino-di-crescenza"  ,
         "img": "./images/cheeses/stracchinoDiCrescenza.jpg"
     },
     {
@@ -823,12 +947,14 @@
         "name":"Paški Sir",
         "region": "Pag",
         "country": "Croatia",
-        "lat": 44.44,
-        "lng": 15.05,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [15.05, 44.44]
+        },
+        "rating":4.3,
         "fun": "The rocky, lunar-like landscape of Pag is inhabited by far more sheep than people",
         "content": "100% pastuerized sheep's milk sourced exclusively from the indigenous Pag sheep breed on the Croatian island of Pag",
-        "Url": "https://www.tasteatlas.com/paski-sir"  ,
+        "url": "https://www.tasteatlas.com/paski-sir"  ,
         "img": "./images/cheeses/pagCheese.jpg"
     },
     {
@@ -836,12 +962,14 @@
         "name":"Sulguni",
         "region": "Samegrelo-Upper Svaneti",
         "country": "Georgia",
-        "lat": 41.83,
-        "lng": 44.80,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [44.80, 41.83]
+        },
+        "rating":4.3,
         "fun": "Sulguni is a 'quick' Georgian pickled cheese, often ready to eat in just one or two days, that gets its name from 'suli' (soul) and 'guli' (heart)",
         "content": "Cow and buffalo milk",
-        "Url": "https://www.tasteatlas.com/sulguni" ,
+        "url": "https://www.tasteatlas.com/sulguni" ,
         "img": "./images/cheeses/sulguni.jpg"
     },
     {
@@ -849,12 +977,14 @@
         "name":"Caciocavallo Silano",
         "region": "Calabria",
         "country": "Italy",
-        "lat": 38.11,
-        "lng": 15.65,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [15.65, 38.11]
+        },
+        "rating":4.3,
         "fun": "The cheese is produced in a teardrop shape with a distinct neck, tied in pairs, and hung over a horizontal wooden rod ('cavallo') to mature",
         "content": "Raw or fresh cow's milk",
-        "Url": "https://www.tasteatlas.com/caciocavallo-silano" ,
+        "url": "https://www.tasteatlas.com/caciocavallo-silano" ,
         "img": "./images/cheeses/caciocavalloSilano.jpg"
     },
     {
@@ -862,12 +992,14 @@
         "name":"Brie de Melun",
         "region": "Melun",
         "country": "France",
-        "lat": 48.64,
-        "lng": 2.51,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [2.51, 48.64]
+        }, 
+        "rating":4.3,
         "fun": "If aged for several months, the rind turns dark, and the cheese becomes very strong, earning the name Brie Noir",
         "content": "Cow milk that is typically unpasteurized",
-        "Url": "https://www.tasteatlas.com/brie-de-melun"  ,
+        "url": "https://www.tasteatlas.com/brie-de-melun"  ,
         "img": "./images/cheeses/brieDeMelun.jpg"
     },
     {
@@ -875,12 +1007,14 @@
         "name":"Morbier",
         "region": "Morbier",
         "country": "France",
-        "lat": 46.53,
-        "lng": 6.02,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [6.02, 46.53]
+        }, 
+        "rating":4.3,
         "fun": "Historically, the black streak was made from real ash taken from the bottom of the cheesemaker's cooking cauldron to prevent mold or insects from damaging the curd",
         "content": "Exclusively with unpasteurised milk",
-        "Url": "https://www.tasteatlas.com/morbier" ,
+        "url": "https://www.tasteatlas.com/morbier" ,
         "img": "./images/cheeses/morbier.jpg"
     },
     {
@@ -888,12 +1022,14 @@
         "name":"Galotyri",
         "region": "Thessaly",
         "country": "Greece",
-        "lat": 39.68,
-        "lng": 22.24,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [22.24, 39.68]
+        },
+        "rating":4.3,
         "fun": "This tangy, yogurt-like spreadable cheese was crowned the 2023 Great Taste Supreme Champion,",
         "content": "At least 70% sheep's milk and up to 30% goat's milk",
-        "Url": "https://www.tasteatlas.com/galotyri" ,
+        "url": "https://www.tasteatlas.com/galotyri" ,
         "img": "./images/cheeses/galotyri.jpg"
     },
     {
@@ -901,12 +1037,14 @@
         "name":"Slovenská Parenica",
         "region": "",
         "country": "Slovakia",
-        "lat": 48.67,
-        "lng": 19.70,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [19.70, 48.67]
+        },
+        "rating":4.3,
         "fun": "Traditional Slovak steamed, smoked sheep’s milk cheese with a distinctive 'S' shape and fibrous, stringy, and elastic texture",
         "content": "Mixture of raw sheep's and cow's milk, where the content of sheep's milk must be at least 50%",
-        "Url": "https://www.tasteatlas.com/slovenska-parenica" ,
+        "url": "https://www.tasteatlas.com/slovenska-parenica" ,
         "img": "./images/cheeses/slovenskáParenica.jpg"
     },
     {
@@ -914,12 +1052,14 @@
         "name":"Oscypek",
         "region": "Lesser Poland Voivodeship",
         "country": "Poland",
-        "lat": 49.85,
-        "lng": 20.25,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [20.25, 49.85]
+        },
+        "rating":4.3,
         "fun": "Historically, these cheeses were used by highlanders to pay for goods and services",
         "content": "A minimum of 60% unpasteurized sheep’s milk, with the remainder often being cow's milk",
-        "Url": "https://www.tasteatlas.com/oscypek" ,
+        "url": "https://www.tasteatlas.com/oscypek" ,
         "img": "./images/cheeses/oscypki.jpg"
     },
     {
@@ -927,12 +1067,14 @@
         "name":"Kefalotyri",
         "region": "",
         "country": "Greece",
-        "lat": 39.07,
-        "lng": 21.82,
-        "rating":"4.3",
+        "location": {
+            "type": "Point",
+            "coordinates": [21.82, 39.07]
+        },
+        "rating":4.3,
         "fun": "Despite being a pillar of Greek cuisine, this popular appetizer was actually invented in Chicago, Illinois, rather than in Greece",
         "content": "Sheep milk or goat's milk (or both) in Greece and Cyprus",
-        "Url": "https://www.tasteatlas.com/kefalotyri" ,
+        "url": "https://www.tasteatlas.com/kefalotyri" ,
         "img": "./images/cheeses/kefalotyri.jpg"
     },
     {
@@ -940,12 +1082,14 @@
         "name":"Reblochon",
         "region": "Haute-Savoie",
         "country": "France",
-        "lat": 46.07,
-        "lng": 6.42,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [6.42, 46.07]
+        }, 
+        "rating":4.2,
         "fun": "It is a 'tax-evasion' cheese, born to avoid high taxes based on milk production, farmers would only partially milk their cows during inspection, later performing a second, secret milking ('reblocher') to produce this rich, creamy cheese. ",
         "content": "Raw cow's milk",
-        "Url": "https://www.tasteatlas.com/reblochon" ,
+        "url": "https://www.tasteatlas.com/reblochon" ,
         "img": "./images/cheeses/reblochon.jpg"
     },
     {
@@ -953,12 +1097,14 @@
         "name":"Taleggio",
         "region": "Province of Bergamo",
         "country": "Italy",
-        "lat": 45.69,
-        "lng": 9.67,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [9.67, 45.69]
+        }, 
+        "rating":4.2,
         "fun": "Famously known for its incredibly pungent, 'stinky' smell—often compared to body odor or wet grass",
         "content": "Exclusively of pasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/taleggio" ,
+        "url": "https://www.tasteatlas.com/taleggio" ,
         "img": "./images/cheeses/taleggio.jpg"
     },
     {
@@ -966,12 +1112,14 @@
         "name":"Époisses",
         "region": "Burgundy",
         "country": "France",
-        "lat": 46.38,
-        "lng": 4.54,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [4.54, 46.38]
+        }, 
+        "rating":4.2,
         "fun": "Often called 'the king of cheeses' that is so odoriferous it is rumored to be banned from public transport in France",
         "content": "Either raw (unpasteurized) or pasteurized exclusively from whole cow's milk",
-        "Url": "https://www.tasteatlas.com/epoisses" ,
+        "url": "https://www.tasteatlas.com/epoisses" ,
         "img": "./images/cheeses/epoisses.jpg"
     },
     {
@@ -979,12 +1127,14 @@
         "name":"Tomme de Savoie",
         "region": "Savoie",
         "country": "France",
-        "lat": 45.50,
-        "lng": 6.00,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [6.00, 45.50]
+        }, 
+        "rating":4.2,
         "fun": "Historically, this was a peasant cheese made from whatever milk was left after making larger, more expensive wheels like Beaufort",
         "content": "Raw, leftover skimmed cow's milk",
-        "Url": "https://www.tasteatlas.com/tomme-de-savoie" ,
+        "url": "https://www.tasteatlas.com/tomme-de-savoie" ,
         "img": "./images/cheeses/tommDeSavoie.jpg"
     },
     {
@@ -992,12 +1142,14 @@
         "name":"Queso Payoyo",
         "region": "Grazalema",
         "country": "Spain",
-        "lat": 36.76,
-        "lng": -5.37,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [-5.37, 36.76]
+        },
+        "rating":4.2,
         "fun": "The cheese is made from the milk of the Payoya goat, which is considered an endangered breed, making the consumption of the cheese a way to promote its sustainability",
         "content": "Milk of Payoya goats and Merina grazalemeña sheep",
-        "Url": "https://www.tasteatlas.com/queso-payoyo"  ,
+        "url": "https://www.tasteatlas.com/queso-payoyo"  ,
         "img": "./images/cheeses/quesoPayoyo.jpg"
     },
     {
@@ -1005,12 +1157,14 @@
         "name":"Tomme des Pyrénées",
         "region": "Hautes-Pyrénées",
         "country": "France",
-        "lat": 43.05,
-        "lng": 0.17,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [0.17, 43.05]
+        }, 
+        "rating":4.2,
         "fun": "Despite being a rustic, traditional mountain cheese, it is often noted for tasting similar to a creamier, softer version of modern Babybel",
         "content": "Cow's milk ",
-        "Url": "https://www.tasteatlas.com/tomme-des-pyrenees" ,
+        "url": "https://www.tasteatlas.com/tomme-des-pyrenees" ,
         "img": "./images/cheeses/tomme.jpg"
     },
     {
@@ -1018,12 +1172,14 @@
         "name":"Formaella Arachovas Parnassou",
         "region": "Arachova",
         "country": "Greece",
-        "lat": 38.43,
-        "lng": 22.67,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [22.67, 38.43]
+        },
+        "rating":4.2,
         "fun": "This cheese is considered a 'gastronomic treasure' of the Arachova region, produced under strict PDO regulations since 1996, meaning true Formaella is rarely found outside this specific mountain area",
         "content": "Sheep's milk, goat's milk, or a mixture of both",
-        "Url": "https://www.tasteatlas.com/formaella-arachovas-parnassou" ,
+        "url": "https://www.tasteatlas.com/formaella-arachovas-parnassou" ,
         "img": "./images/cheeses/formaellaArachovasParnassou.jpg"
     },
     {
@@ -1031,12 +1187,14 @@
         "name":"Myzithra",
         "region": "Crete",
         "country": "Greece",
-        "lat": 35.25,
-        "lng": 24.91,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [24.91, 35.25]
+        },
+        "rating":4.2,
         "fun": "Actually made from the leftover whey of other cheeses like Feta",
         "content": "Pasteurized sheep's milk",
-        "Url": "https://www.tasteatlas.com/myzithra"  ,
+        "url": "https://www.tasteatlas.com/myzithra"  ,
         "img": "./images/cheeses/myzithra.jpg"
     },
     {
@@ -1044,12 +1202,14 @@
         "name":"Old Amsterdam",
         "region": "",
         "country": "Netherlands",
-        "lat": 52.13,
-        "lng": 5.29,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [5.29, 52.13]
+        }, 
+        "rating":4.2,
         "fun": "Old Amsterdam is actually a relatively young, factory-produced cheese that matures in only 8 months—much faster than the 10–12 months traditional for old Gouda",
         "content": "Pasteurized cow's milk",
-        "Url": "https://www.tasteatlas.com/old-amsterdam"  ,
+        "url": "https://www.tasteatlas.com/old-amsterdam"  ,
         "img": "./images/cheeses/oldamsterdam.jpg"
     },
     {
@@ -1057,12 +1217,14 @@
         "name":"Queijo Minas",
         "region": "Minas Gerais",
         "country": "Brazil",
-        "lat": -18.51,
-        "lng": -44.56,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [-44.56, -18.51]
+        },
+        "rating":4.2,
         "fun": "It is so culturally significant that its artisanal production, often involving small, family-run farms, is recognized as a UNESCO Intangible Cultural Heritage",
         "content": "Cow's milk",
-        "Url": "https://www.tasteatlas.com/queijo-minas" ,
+        "url": "https://www.tasteatlas.com/queijo-minas" ,
         "img": "./images/cheeses/queijoMinas.jpg"
     },
     {
@@ -1070,12 +1232,14 @@
         "name":"Bitto",
         "region": "Valtellina",
         "country": "Italy",
-        "lat": 46.17,
-        "lng": 9.75,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [9.75, 46.17]
+        }, 
+        "rating":4.2,
         "fun": "One of the world's longest-aged edible cheeses, with specialized 'Bitto Storico' (or 'Storico Ribelle') wheels matured for up to 18 years, developing a intense, nutty, and crystalline texture",
         "content": "Mostly raw whole cow’s milk (from Braunvieh cows) blended with 10% to 20% raw goat’s milk",
-        "Url": "https://www.tasteatlas.com/bitto" ,
+        "url": "https://www.tasteatlas.com/bitto" ,
         "img": "./images/cheeses/bitto.jpg"
     },
     {
@@ -1083,12 +1247,14 @@
         "name":"Saint-Marcellin",
         "region": "Saint-Marcellin",
         "country": "France",
-        "lat": 45.15,
-        "lng": 5.32,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [5.32, 45.15]
+        }, 
+        "rating":4.2,
         "fun": "It is so runny when ripe that it is typically sold in a small, protective earthenware crock to prevent it from escaping",
         "content": "Cow's milk",
-        "Url": "https://www.tasteatlas.com/saint-marcellin" ,
+        "url": "https://www.tasteatlas.com/saint-marcellin" ,
         "img": "./images/cheeses/saintMarcellin.jpg"
     },
     {
@@ -1096,12 +1262,14 @@
         "name":"Gruyère",
         "region": "Gruyères",
         "country": "Switzerland",
-        "lat": 46.58,
-        "lng": 7.08,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [7.08, 46.58]
+        }, 
+        "rating":4.2,
         "fun": "Historically, it was developed by medieval peasants as a way to preserve milk, with the first recorded mention dating back to 1115",
         "content": "Only raw milk from cows fed with natural forage (grass in summer and hay in winter) and without any additives or ensilage",
-        "Url": "https://www.tasteatlas.com/gruyere" ,
+        "url": "https://www.tasteatlas.com/gruyere" ,
         "img": "./images/cheeses/gruyère.jpg"
     },
     {
@@ -1109,12 +1277,14 @@
         "name":"Tulum Peyniri",
         "region": "",
         "country": "Turkiye",
-        "lat": 41.21,
-        "lng": 28.74,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [28.74, 41.21]
+        },
+        "rating":4.2,
         "fun": "Unlike modern cheeses, it is stuffed into goat or sheep hides, which are sometimes perforated to let whey drain, allowing the skin to impart a unique, earthy, and pungent flavor",
         "content": "Raw sheep's milk, though goat's milk or mixtures (including cow's milk) are common, especially in commercial varieties",
-        "Url": "https://www.tasteatlas.com/tulum-peyniri"  ,
+        "url": "https://www.tasteatlas.com/tulum-peyniri"  ,
         "img": "./images/cheeses/tulumPeyniri.jpg"
     },
     {
@@ -1122,12 +1292,14 @@
         "name":"Manouri",
         "region": "Thessaly",
         "country": "Greece",
-        "lat": 39.58,
-        "lng": 22.24,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [22.24, 39.58]
+        },
+        "rating":4.2,
         "fun": "While feta is tangy and salty, Manouri is created by adding fresh cream to the whey left over from making feta, resulting in a soft, rich, and much milder cheese",
         "content": "Goat or sheep milk that is typically pasteurized",
-        "Url": "https://www.tasteatlas.com/manouri" ,
+        "url": "https://www.tasteatlas.com/manouri" ,
         "img": "./images/cheeses/manouri.jpg"
     },
     {
@@ -1135,12 +1307,14 @@
         "name":"Telemea de Ibăneşti",
         "region": "Ibănești",
         "country": "Romania",
-        "lat": 46.77,
-        "lng": 24.94,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [24.94, 46.77]
+        },
+        "rating":4.2,
         "fun": "The cheese was originally produced only in Romania but when the Vlach population started spreading beyond their native country, the recipe became popular in European nations like Greece, Macedonia, Bulgaria and Poland",
         "content": "Sheep's milk",
-        "Url": "https://www.tasteatlas.com/telemea-de-ibanesti" ,
+        "url": "https://www.tasteatlas.com/telemea-de-ibanesti" ,
         "img": "./images/cheeses/telemea.jpg"
     },
     {
@@ -1148,12 +1322,14 @@
         "name":"Provola",
         "region": "Campania",
         "country": "Italy",
-        "lat": 40.93,
-        "lng": 14.20,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [14.20, 40.93]
+        },
+        "rating":4.2,
         "fun": "It is sometimes aged by hiding a whole lemon inside the cheese, which infuses it with a citrusy scent as it matures",
         "content": "Pasteurized milk",
-        "Url": "https://www.tasteatlas.com/provola" ,
+        "url": "https://www.tasteatlas.com/provola" ,
         "img": "./images/cheeses/provola.jpg"
     },
     {
@@ -1161,12 +1337,14 @@
         "name":"Rocamadour",
         "region": "Rocamadour",
         "country": "France",
-        "lat": 44.80,
-        "lng": 1.62,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [1.62, 44.80]
+        }, 
+        "rating":4.2,
         "fun": "By the 15th century, Rocamadour's popularity was such that peasant farmers were allowed to use these small goat cheese discs to pay their taxes and land rent",
         "content": "100% whole, raw goat’s milk",
-        "Url": "https://www.tasteatlas.com/rocamadour" ,
+        "url": "https://www.tasteatlas.com/rocamadour" ,
         "img": "./images/cheeses/rocamadour.jpg"
     },
     {
@@ -1174,12 +1352,14 @@
         "name":"Saint Agur",
         "region": "Beauzac",
         "country": "France",
-        "lat": 45.26,
-        "lng": 4.10,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [4.10, 45.26]
+        }, 
+        "rating":4.2,
         "fun": "It is technically a 60% butterfat double-cream cheese, giving it a remarkably smooth, buttery texture compared to traditional blues",
         "content": "Pasteurised cow's milk",
-        "Url": "https://www.tasteatlas.com/saint-agur"  ,
+        "url": "https://www.tasteatlas.com/saint-agur"  ,
         "img": "./images/cheeses/saintAgur.jpg"
     },
     {
@@ -1187,12 +1367,14 @@
         "name":"Kopanisti",
         "region": "Cyclades",
         "country": "Greece",
-        "lat": 37.98,
-        "lng": 23.74,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [23.74, 37.98]
+        },
+        "rating":4.2,
         "fun": "Kopanisti translates to 'beaten' or 'whipped' referring to the method where it is hand-kneaded 3-4 times during maturation to distribute the pungent microbial flora",
         "content": "Raw, whole cow’s, sheep’s, or goat’s milk, or mixtures thereof",
-        "Url": "https://www.tasteatlas.com/kopanisti" ,
+        "url": "https://www.tasteatlas.com/kopanisti" ,
         "img": "./images/cheeses/kopanisti..jpg"
     },
     {
@@ -1200,12 +1382,14 @@
         "name":"Scamorza",
         "region": "Apulia",
         "country": "Italy",
-        "lat": 41.01,
-        "lng": 16.73,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [16.73, 41.01]
+        },
+        "rating":4.2,
         "fun": "It has a surprisingly insulting name that literally translates to 'severed head' or 'beheaded' (capa mozza), referencing its unique hanging, pear-like shape. Because of this, calling someone a 'scamorza' in local Italian slang can jokingly mean they are an 'idiot' or have a weak character. ",
         "content": "Cow's milk, or less commonly from milk of other species",
-        "Url": "https://www.tasteatlas.com/scamorza" ,
+        "url": "https://www.tasteatlas.com/scamorza" ,
         "img": "./images/cheeses/scamorza.jpg"
     },
     {
@@ -1213,12 +1397,14 @@
         "name":"Queijo de Évora",
         "region": "Évora District",
         "country": "Portugal",
-        "lat": 38.57,
-        "lng": -7.91,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [-7.91, 38.57]
+        },
+        "rating":4.2,
         "fun": "It was once common practice to pay farm workers in the Évora district with this cheese instead of money",
         "content": "Merina Branca sheep's milk",
-        "Url": "https://www.tasteatlas.com/queijo-de-evora" ,
+        "url": "https://www.tasteatlas.com/queijo-de-evora" ,
         "img": "./images/cheeses/queijoDeÉvora.jpg"
     },
     {
@@ -1226,12 +1412,14 @@
         "name":"Queijo do Pico",
         "region": "Pico Island",
         "country": "Portugal",
-        "lat": 38.39,
-        "lng": -28.25,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [-28.25, 38.39]
+        },
+        "rating":4.2,
         "fun": "Despite being a small island, this cheese was historically produced only for local, familial consumption",
         "content": "Cow's milk and coagulated with natural rennet",
-        "Url": "https://www.tasteatlas.com/queijo-do-pico" ,
+        "url": "https://www.tasteatlas.com/queijo-do-pico" ,
         "img": "./images/cheeses/queijoDoPico.jpg"
     },
     {
@@ -1239,12 +1427,14 @@
         "name":"Queijo São Jorge",
         "region": "São Jorge Island",
         "country": "Portugal",
-        "lat": 38.62,
-        "lng": -28.04,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [-28.04, 38.62]
+        },
+        "rating":4.2,
         "fun": "The cheese has a unique, tangy, and spicy, 'bite' that many believe cannot be replicated with modern cultures",
         "content": "Pasteurized milk from the island's cows",
-        "Url": "https://www.tasteatlas.com/queijo-s-jorge" ,
+        "url": "https://www.tasteatlas.com/queijo-s-jorge" ,
         "img": "./images/cheeses/queijoSãoJorge.jpg"
     },
     {
@@ -1252,12 +1442,14 @@
         "name":"Kasseri",
         "region": "Thessaly",
         "country": "Greece",
-        "lat": 39.58,
-        "lng": 22.24,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [22.24, 39.58]
+        },
+        "rating":4.2,
         "fun": "Despite being a staple of Greek cuisine, its name likely stems from a Hebrew word (kashér), and it is believed to have been invented by Jewish residents in Kırkkilise (now Kırklareli, Turkey) in the 19th centur",
         "content": "Primarily from sheep's milk, often blended with a maximum of 20% goat's milk",
-        "Url": "https://www.tasteatlas.com/kasseri" ,
+        "url": "https://www.tasteatlas.com/kasseri" ,
         "img": "./images/cheeses/kasseri.jpg"
     },
     {
@@ -1265,12 +1457,14 @@
         "name":"Selles-sur-Cher",
         "region": "Selles-sur-Cher",
         "country": "France",
-        "lat": 47.28,
-        "lng": 1.55,
-        "rating":"4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [1.55, 47.28]
+        }, 
+        "rating":4.2,
         "fun": "While it looks intimidating, the edible black layer is actually powdered vegetable charcoal (historically burnt grape vine shoots) that balances the cheese's pH, allowing mold to grow while creating a stark, beautiful contrast with the snow-white paste",
         "content": "Pasteurized goat's milk",
-        "Url": "https://www.tasteatlas.com/selles-sur-cher" ,
+        "url": "https://www.tasteatlas.com/selles-sur-cher" ,
         "img": "./images/cheeses/selleSurCher.jpg"
     },
     {
@@ -1278,12 +1472,14 @@
         "name":"Queso Zamorano",
         "region": "Province of Zamora",
         "country": "Spain",
-        "lat": 39.57,
-        "lng": -0.51,
-        "rating": "4.2",
+        "location": {
+            "type": "Point",
+            "coordinates": [-0.51, 39.57]
+        },
+        "rating":4.2,
         "fun": "Despite being a firm, hard cheese, it boasts a surprisingly complex flavor, described as having hints of nut, grass, and even white chocolate in older versions",
         "content": "Whole raw milk of Churra and Castilian sheep breeds",
-        "Url": "https://www.tasteatlas.com/queso-zamorano" ,
+        "url": "https://www.tasteatlas.com/queso-zamorano" ,
         "img": "./images/cheeses/quesoZamorano.jpg"
     },
     {
@@ -1291,12 +1487,14 @@
         "name": "Mori no",
         "region": "Matsumoto",
         "country": "Japan",
-        "lat": 36.25,
-        "lng": 137.97,
-        "rating": "N/A",
+        "location": {
+            "type": "Point",
+            "coordinates": [137.97, 36.25]
+        },
+        "rating": null,
         "fun": "The name Mori no means 'forest' in Japanese, and it is crafted to taste like the mountain forests of Nagano where the cows graze",
         "content": "Milk of grazing Brown Swiss cows",
-        "Url": "https://www.tasteatlas.com/mori-no" ,
+        "url": "https://www.tasteatlas.com/mori-no" ,
         "img": "./images/cheeses/moriNo.jpg"
     },
     {
@@ -1304,12 +1502,14 @@
         "name": "Sakura",
         "region": "Hokkaido",
         "country": "Japan",
-        "lat": 45.41,
-        "lng": 141.57,
-        "rating": "N/A",
+        "location": {
+            "type": "Point",
+            "coordinates": [141.57, 45.41]
+        },
+        "rating": null,
         "fun": "Remarkably, it was the first Japanese cheese to win a gold medal at the Mountain Cheese Olympics in Switzerland, beating traditional European cheeses",
         "content": "whole, thermised organic Hokkaido cow's milk",
-        "Url": "https://www.tasteatlas.com/sakura" ,
+        "url": "https://www.tasteatlas.com/sakura" ,
         "img": "./images/cheeses/saukura.jpg"
     },
     {
@@ -1317,12 +1517,14 @@
         "name": "Colby",
         "region": "Colby",
         "country": "United States of America",
-        "lat": 39.39,
-        "lng": -101.05,
-        "rating": "3.4",
+        "location": {
+            "type": "Point",
+            "coordinates": [-101.05, 39.39]
+        },
+        "rating":3.4,
         "fun": "Colby cheese was invented in 1885 by Joseph Steinwand in Colby, Wisconsin, who created it by washing cheddar curds with cold water to reduce acidity",
         "content": "100% all-natural Canadian cow's milk (pasteurized)",
-        "Url": "hhttps://www.tasteatlas.com/colby-cheese",
+        "url": "hhttps://www.tasteatlas.com/colby-cheese",
         "img": "./images/cheeses/colby.jpg"
     }
 ]

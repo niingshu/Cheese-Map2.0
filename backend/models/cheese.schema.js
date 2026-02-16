@@ -17,13 +17,13 @@ const schema = new mongoose.Schema({
     location: {
         type: {
             type: String, //'location.type' must be 'Point'
-        enum: ['Point'],
-        default: 'Point',
-        required: true
+            enum: ['Point'],
+            default: 'Point',
+            required: true
         }, 
         coordinates: {
-        type: [Number], //array of numbers: [longitude, latitude]
-        required: true
+            type: [Number], //array of numbers: [longitude, latitude]
+            required: true
         }
     },
     rating: {
@@ -52,3 +52,4 @@ const schema = new mongoose.Schema({
         immutable: true //value cannot be changed after initial save
     }
 }); 
+//the collection name is cheese_map -> whenever need something from db -> call cheese_map.collection()
