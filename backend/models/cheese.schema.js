@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
-const schema = new mongoose.Schema({
+//define schema structure for data
+const cheesesSchema = new mongoose.Schema({
     name: {
     type: String,
     required: true //cannot but null or undefined
@@ -53,3 +54,9 @@ const schema = new mongoose.Schema({
     }
 }); 
 //the collection name is cheese_map -> whenever need something from db -> call cheese_map.collection()
+//the db name is cheeses (in the string_connection)
+
+//a model is a class with which you can construct documents
+const cheeses = mongoose.model ('cheeses', cheesesSchema);
+
+module.exports = cheeses;
