@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const Cheeses = require('./models/cheese.schema.js')
 
 const app = express();
-const PORT = 5000;
+const PORT = 5001;
 
 app.use(cors());
 app.use(express.json());
@@ -38,7 +38,7 @@ app.get('/api/cheeses/:id', async (req, res) => {
         if (!cheese) {
             return res.status(404).json({message: 'No Item found'});
         }
-        res.status(200).json({item: item});
+        res.status(200).json({item: cheese});
     } catch (err){
         console.error(err);
         res.status(500).json({message: 'Error on server'});
@@ -47,5 +47,5 @@ app.get('/api/cheeses/:id', async (req, res) => {
 
 //start the server 
 app.listen(PORT, () => {
-    console.log('Server running on port 5000');
+    console.log('Server running on port ' + PORT);
 });
