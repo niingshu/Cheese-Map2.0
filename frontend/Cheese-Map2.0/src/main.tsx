@@ -4,8 +4,9 @@ import './index.css'
 import App from './App.tsx'
 import 'leaflet/dist/leaflet.css';
 
+//calling to App() in App.tsx
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <App /> 
   </StrictMode>,
 )
