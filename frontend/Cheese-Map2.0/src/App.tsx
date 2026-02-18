@@ -77,8 +77,8 @@ function App() {
 
         <form onSubmit={handleSearch} action="search">
             <div className="search-tool">
-                <input type="text" id="find-cheese" />
-                <ul className="result-list">
+                <input type="text" id="searchInput" placeholder="Search for cheese..."/>
+                <ul className="result-list" id="resultList">
                     {cheeses.map(cheese => (
                         <li key={cheese.id}
                             onClick={(e) => handleResultClick(cheese.id, e)}
@@ -102,8 +102,8 @@ function App() {
                 </select>
         </div>
 
-        <div className='side-panel'>
-            <div className='resizeable-panel'></div>
+        <div className='sidepanel' id="cheeseSidePanel">
+            <div className='resizeable-panel' id="resize-bar"></div>
             <a href="javascript:void(0)" id="closebtn" className="closebtn">&times;</a>
 
             <img id="cheeseImage" draggable="false" src="" alt="Cheese Image" className="panel-image"></img>
