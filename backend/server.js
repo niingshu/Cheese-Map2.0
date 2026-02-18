@@ -22,9 +22,14 @@ mongoose.connect("mongodb://127.0.0.1:27017/cheeses")
 //when frontend calls api/cheeses this function is ran
 app.get('/api/cheeses', async (req, res) => { //express receiving the request from frontend
     try {
-        const cheeses = await Cheeses.find(); //use find() -> express calling mongodb 
         //cheeses is the response from mongo (data stored) to get back to express
-        res.json(cheeses); //send the data as json to frontend
+        const cheeses = await Cheeses.find({}) //use find() -> express calling mongodb 
+            .then(cheese => { 
+                res.status(200).json({
+                    cheese, //send the data as json to frontend
+                })
+            });
+        
     } catch (err) {
         console.error(err);
         res.status(500).send('Server Error');

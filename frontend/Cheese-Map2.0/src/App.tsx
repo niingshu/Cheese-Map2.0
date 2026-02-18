@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import MapView from './MapView'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import MapView from './components/MapView'
 import './App.css'
 import 'leaflet/dist/leaflet.css' //import leaflet from download
+import {getCheeses} from './services/cheeseService'
+
 
 function App() {
   return (
@@ -16,4 +16,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
