@@ -2,36 +2,28 @@ import { useState, useEffect } from 'react'
 import MapView from './components/MapView'
 import './App.css'
 import 'leaflet/dist/leaflet.css' //import leaflet from download
+import type { Cheese } from './types/Cheese'
 
-//define the data fetched from MongoDB (BE)
-interface Cheese {
-    id: string,
-    name: string,
-    region: string,
-    country: string,
-    location: [number, number], //empty array of 2 numbers
-    rating: null,
-    fun: string,
-    url: string,
-    img: string, 
-    createAt: Date
-}
 
 function App() {
     //cheese is an object, set default
     const [cheeses, setCheese] = useState<Cheese[]>([])
 
-    useEffect(() => { //fetch data
-        fetch('htpp://localhost:5001/api/cheeses')
+    //fetch data
+    useEffect(() => { 
+        fetch('http://localhost:5001/api/cheeses')
             .then(response => {
-                if (!response.ok) throw new Error('Error in fetching from database')
+                if (!response.ok) throw new Error('Failed to fetch')
                 return response.json()
             })
-            .then(data => setCheese(data)) //store 
+            .then(data =>  {
+                console.log('Fetched cheeses: ', data)
+                setCheese(data)
+            }) //store 
             .catch(error => console.error('Error in fetching', error))
     }, []) //taking the cheese data from backend and storing it into local storage
 
-    //submit event listener
+    //search submit
     const handleSearch = (event: React.SubmitEvent<HTMLFormElement>) => {
         event.preventDefault()
 
@@ -75,19 +67,17 @@ function App() {
         <>
         <h1>Cheeses of World Map</h1>
 
-        <form onSubmit={handleSearch} action="search">
-            <div className="search-tool">
-                <input type="text" id="searchInput" placeholder="Search for cheese..."/>
-                <ul className="result-list" id="resultList">
-                    {cheeses.map(cheese => (
-                        <li key={cheese.id}
-                            onClick={(e) => handleResultClick(cheese.id, e)}
-                            style={{ cursor: 'pointer' }}>
-                            {cheese.name}
-                        </li>
-                    ))}
-                </ul>
-            </div>
+        <form onSubmit={handleSearch}>
+            <input type="text" id="searchInput" placeholder="Search for cheese..."/>
+            <ul className="result-list" id="resultList">
+                {cheeses.map(cheese => (
+                    <li key={cheese._id}
+                        onClick={(e) => handleResultClick(cheese._id, e)}
+                        style={{ cursor: 'pointer' }}>
+                        {cheese.name}
+                    </li>
+                ))}
+            </ul>
         </form>
 
         <div className="filter">
@@ -115,9 +105,7 @@ function App() {
             <a id="more" href="#" target="_blank">More Information</a>
         </div>
 
-        <div className="map">
-            <MapView />
-        </div>
+        <MapView cheeses={cheeses} />
         </>
     )
 }
