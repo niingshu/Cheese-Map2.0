@@ -11,11 +11,13 @@ import type { Cheese } from '../types/Cheese'
 (delete (L.Icon.Default.prototype as any)._getIconUrl);
 //created a customized icon as cheeseSpot
 
+//props
 interface MapViewProps {
     cheeses: Cheese[]
+    selectedCheese: Cheese|null
+    setSelectedCheese: React.Dispatch<React.SetStateAction<Cheese|null>> 
+    //function that updates Cheese or null state
 }
-
-const defaultCenter: [number, number] = [51.505, -0.09];
 
 //js variable/function -> custom React component -> capitalize first letter
 function RecenterMap({position}: {position: [number, number]}) {
@@ -27,8 +29,8 @@ function RecenterMap({position}: {position: [number, number]}) {
         return null
 }
 
-export default function MapView({ cheeses }: MapViewProps) {
-    const [selectedCheese, setSelectedCheese] = useState<Cheese|null>(null)
+export default function MapView({ cheeses, selectedCheese, setSelectedCheese }: MapViewProps) {
+    const defaultCenter: [number, number] = [51.505, -0.09];
 
     const onCheeseClick = (cheese: Cheese) => { //arrow helper function
         setSelectedCheese(cheese)
@@ -55,7 +57,7 @@ export default function MapView({ cheeses }: MapViewProps) {
             const [lng, lat] = cheese.location.coordinates
 
             return (
-                <Marker key={cheese._id} position={[lat,lng] as [number, number]}
+                <Marker key={cheese._id} position={[lat, lng] as [number, number]}
                     eventHandlers={{click: () => onCheeseClick(cheese)}}>
                     <Popup>
                         {cheese.name} ({cheese.region}, {cheese.country})

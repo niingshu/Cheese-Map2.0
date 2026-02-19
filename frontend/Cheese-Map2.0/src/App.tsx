@@ -8,6 +8,7 @@ import type { Cheese } from './types/Cheese'
 function App() {
     //cheese is an object, set default
     const [cheeses, setCheese] = useState<Cheese[]>([])
+    const [selectedCheese, setSelectedCheese] = useState<Cheese|null>(null)
 
     //fetch data
     useEffect(() => { 
@@ -96,7 +97,7 @@ function App() {
             <div className='resizeable-panel' id="resize-bar"></div>
             <a href="javascript:void(0)" id="closebtn" className="closebtn">&times;</a>
 
-            <img id="cheeseImage" draggable="false" src="" alt="Cheese Image" className="panel-image"></img>
+            <img id="cheeseImage" draggable="false" src={selectedCheese?.img || undefined} alt="Cheese Image" className="panel-image"></img>
             <p id="name" className="name">Name</p>
             <p id="origin">Origin</p>
             <p id="rating">Rating</p>
@@ -105,7 +106,9 @@ function App() {
             <a id="more" href="#" target="_blank">More Information</a>
         </div>
 
-        <MapView cheeses={cheeses} />
+        <MapView cheeses={cheeses}
+                selectedCheese={selectedCheese}
+                setSelectedCheese={setSelectedCheese}/>
         </>
     )
 }

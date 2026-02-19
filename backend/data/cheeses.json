@@ -4,8 +4,10 @@
         "name":"Graviera Naxou",
         "region": "Naxos Island",
         "country": "Greece",
-        "lat": 37.08,
-        "lng": 25.37,
+        "location": {
+            "type": "Point",
+            "coordinates": [37.33, 44.08]
+        },
         "rating": 4.6,
         "fun": "Graviera Naxou was inspired by the Swiss Gruyère",
         "content": "Cow's milk (at least 80%) with addition of sheep and goat's milk (up to 20%)",
